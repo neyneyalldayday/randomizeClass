@@ -26,6 +26,7 @@ const names = [
 
 const randomStudent = document.getElementById("random-stud");
 const randomButton = document.getElementById("stud-but");
+
 function getRandomName() {
   const randomIndex = Math.floor(Math.random() * names.length);
   return names[randomIndex];
